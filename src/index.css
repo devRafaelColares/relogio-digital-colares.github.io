@@ -1,3 +1,4 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,500;0,600;1,600&display=swap');
 
 * {
@@ -17,14 +18,13 @@ body {
 
 .relogio {
     display: flex;
-    /* flex-wrap: wrap; Permite que os elementos se alinhem verticalmente em telas menores */
     align-items: center;
     justify-content: space-around;
-    max-width: 550px; /* Define uma largura máxima para o relógio */
-    width: 90%; /* Adapta a largura para telas menores */
+    max-width: 550px;
+    width: 90%;
     background-color: transparent;
     border-radius: 3px;
-    box-shadow: 0px 8px 10px rgba(0, 0, 0, .5);
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, .5);
 }
 
 .relogio div {
@@ -56,11 +56,11 @@ body {
     align-items: center;
     justify-content: center;
     margin: 20px;
-    & a {
+    & .icone {
         cursor: pointer;
     }
 
-    & a:hover {
+    & .icone:hover {
         color: #fff;
     }
 }
@@ -77,5 +77,6 @@ body {
     
     .relogio {
         max-width: 300px; /* Adapta a largura máxima do relógio para telas muito pequenas */
+        flex-wrap: wrap;
     }
 }
