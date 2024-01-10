@@ -1,5 +1,4 @@
-function Icone({ classe }) {
-  return <i className={ `fas ${classe}` } />;
+function Icone({ classe }: any) {
+  return <i className={`fas ${classe}`} />;
 }
-
 export default Icone;

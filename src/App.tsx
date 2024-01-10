@@ -1,4 +1,4 @@
-import './App.css'; // Importe o arquivo CSS que contém estilos personalizados, se necessário
+import './App.css'; 
 import Icone from './components/Icone';
 import Relogio from './components/Relogio';
 
