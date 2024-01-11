@@ -1,4 +1,5 @@
-import './App.css'; 
+import './App.css';
+import Alarme from './components/Alarme';
 import Icone from './components/Icone';
 import Relogio from './components/Relogio';
 
@@ -25,6 +26,7 @@ function App() {
         </div>
       </div>
       <Relogio />
+      <Alarme />
     </>
   );
 }
